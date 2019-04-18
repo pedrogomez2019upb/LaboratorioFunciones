@@ -62,3 +62,4 @@ def des_estandar(x):
     import statistics
     a=statistics.stdev(x)
     return float(a)
+#Desarrollado por Pedro Gómez / ID:000396221 / CACE Producciones  

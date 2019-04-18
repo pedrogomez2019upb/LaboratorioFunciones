@@ -1,6 +1,7 @@
 """
 Solución del laboratorio
 """
+#Importamos las funciones de la carpeta custom_functions para utilizarlas en el trabajo
 from custom_functions import temperature_methods
 #Creamos las listas necesarias
 santander=[]
