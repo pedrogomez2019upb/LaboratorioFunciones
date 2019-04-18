@@ -125,4 +125,27 @@ else:
                                         print(mayor(narino))
                                         print("En el mes de: ")
                                         mes(narino)
+                if (promedio(santander)>promedio(narino)>promedio(guajira)):
+                    print("El promedio mayor fue en Santander con: ")
+                    print(promedio(santander))
+                else:                                        
+                    if(promedio(santander)>promedio(guajira)>promedio(narino)):
+                        print("El promedio mayor fue en Santander con: ")
+                        print(promedio(santander))
+                    else:
+                        if(promedio(guajira)>promedio(santander)>promedio(narino)):
+                            print("El promedio mayor fue en La Guajira con: ")
+                            print(promedio(guajira))
+                        else:
+                            if (promedio(guajira)>promedio(narino)>promedio(santander)):
+                                print("El promedio mayor fue en La Guajira con : ")
+                                print(promedio(guajira))
+                            else:
+                                if (promedio(narino)>promedio(santander)>promedio(guajira)):
+                                    print("El promedio mayor fue en Nariño con: ")
+                                    print(promedio(narino))
+                                else:
+                                    if (promedio(narino)>promedio(guajira)>promedio(santander)):
+                                        print("La temperatura mayor fue en Nariño con: ")
+                                        print(promedio(narino))              
 #Desarrollado por Pedro Gómez / ID:000396221 / CACE Producciones      
